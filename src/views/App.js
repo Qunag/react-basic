@@ -1,5 +1,23 @@
 import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import MyComponent from './Example/MyComponent';
+
+/**
+ * 2  components : Class component and Functional component
+ * 
+ * 
+ * -Class component
+ *     class App extends React.Component {
+ * 
+ * -Arrow function
+ *     const App = () => {
+ * 
+ * -Function component 
+ *     function App() {
+ * 
+ * JSX : JavaScript XML
+ * 
+ */
 
 function App() {
   return (
@@ -16,7 +34,16 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
+
         </a>
+
+
+        <MyComponent
+
+        />
+
+
+
       </header>
     </div>
   );
